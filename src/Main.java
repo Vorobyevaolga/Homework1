@@ -12,5 +12,11 @@ public class Main {
         System.out.println(dog);
         System.out.println(cat);
         System.out.println(paper);
+        dog=dog-3.5; //собак уменьшили на 3.5
+        cat=cat-1.6; //кошек уменьшили на 1,6
+        paper=paper-7639; //бумагу уменьшили на 7639
+        System.out.println(dog);
+        System.out.println(cat);
+        System.out.println(paper);
     }
 }
