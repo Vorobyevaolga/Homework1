@@ -1,14 +1,15 @@
 public class Main {
     public static void main(String[] args) {
-        var b1=78.2; //Масса одного боксера — 78.2 кг
-        var b2=82.7; //Масса второго боксера — 82.7 кг
-        System.out.println("Масса первого бойца:  " + b1 + " кг");
-        System.out.println("Масса второго бойца:  "+b2+" кг");
-        var m=b1+b2;
-        System.out.println("Общий вес: "+m+" кг");
-        m=b2-b1;
-        System.out.println("7,1 Разница в весе: "+m+" кг");
-        m=b2%b1;
-        System.out.println("7,2 Разница в весе: "+m+" кг");
+        var totalHours=640; //Всего часов
+        var workingHours=8; //Продолжительность рабочего дня
+        var numbersOfWorkers=totalHours/workingHours; //сколько работников на предприятии
+        System.out.println(totalHours);
+        System.out.println(workingHours);
+        System.out.println("Всего работников на предприятии - "+numbersOfWorkers);
+        numbersOfWorkers=numbersOfWorkers+94; // на 94 работника больше
+        totalHours=numbersOfWorkers*8; //всего часов работы, при условии увеличения численности на 94 человека
+        System.out.println("Если в компании работает "+numbersOfWorkers+" человек, то всего "+totalHours+" часов работы может быть поделено между сотрудниками");
+
+
     }
 }
