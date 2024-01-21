@@ -7,6 +7,8 @@ public class Main {
         var m=b1+b2;
         System.out.println("Общий вес: "+m+" кг");
         m=b2-b1;
-        System.out.println("Разница в весе: "+m+" кг");
+        System.out.println("7,1 Разница в весе: "+m+" кг");
+        m=b2%b1;
+        System.out.println("7,2 Разница в весе: "+m+" кг");
     }
 }
