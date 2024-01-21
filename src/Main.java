@@ -1,22 +1,10 @@
 public class Main {
     public static void main(String[] args) {
-        var dog=8.0; //собака
-        var cat=3.6; //кошка
-        var paper=763789; //бумага
-        System.out.println(dog);
-        System.out.println(cat);
-        System.out.println(paper);
-        dog=dog+4; //собак плюс 4
-        cat=cat+4; //кошек плюс 4
-        paper=paper+4; //бумага плюс 4
-        System.out.println(dog);
-        System.out.println(cat);
-        System.out.println(paper);
-        dog=dog-3.5; //собак уменьшили на 3.5
-        cat=cat-1.6; //кошек уменьшили на 1,6
-        paper=paper-7639; //бумагу уменьшили на 7639
-        System.out.println(dog);
-        System.out.println(cat);
-        System.out.println(paper);
+        var frend=19; //Инициализируйте (присвойте значение) переменную friend значением 19
+                System.out.println(frend);
+        frend=frend+2; //Увеличьте значение переменной на 2
+        System.out.println(frend);
+        frend=frend/7; //Увеличьте значение переменной на 2, после чего поделите значение на 7
+        System.out.println(frend);
     }
 }
