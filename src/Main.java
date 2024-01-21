@@ -1,10 +1,13 @@
 public class Main {
     public static void main(String[] args) {
-        var frend=19; //Инициализируйте (присвойте значение) переменную friend значением 19
-                System.out.println(frend);
-        frend=frend+2; //Увеличьте значение переменной на 2
-        System.out.println(frend);
-        frend=frend/7; //Увеличьте значение переменной на 2, после чего поделите значение на 7
-        System.out.println(frend);
+        var frog=3.5; //Инициализируйте переменную frog значением 3.5
+        System.out.println(frog);
+        frog=frog*10; //Увеличьте переменную в 10 раз и поделите на 3.5
+        System.out.println(frog);
+        frog=frog/3.5; //Увеличьте переменную в 10 раз и поделите на 3.5
+        System.out.println(frog);
+        frog=frog+4; //Добавьте к последнему значению переменной 4
+        System.out.println(frog);
+
     }
 }
