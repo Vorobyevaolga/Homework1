@@ -18,8 +18,8 @@ public class Main {
             System.out.println(i);
         }
         System.out.println("Задача 5");
-        for (int i=1904; i<=2096; i=i+4) {
-            System.out.println(i+" год является високосным");
+        for (int year=1904; year<=2096; year=year+4) {
+            System.out.println(year+" год является високосным");
         }
 
         System.out.println("Задача 6");
@@ -33,17 +33,17 @@ public class Main {
         System.out.println("Задача 8");
         int summa=0;
         int vklad=29000;
-        for (int i=0; i<=12; i=i+1) {
+        for (int month=0; month<=12; month=month+1) {
             summa=vklad+summa;
-            System.out.println("Месяц"+i+", сумма накоплений равна "+summa+" рублей");
+            System.out.println("Месяц "+month+", сумма накоплений равна "+summa+" рублей");
         }
 
         System.out.println("Задача 9");
         int total=29000;
         int сontribution=29000;
-        for (int i=0; i<=12; i=i+1) {
+        for (int month=0; month<=12; month=month+1) {
             total=total+total/100*12; total=сontribution+total;
-            System.out.println("Месяц"+i+", сумма накоплений равна "+total+" рублей");
+            System.out.println("Месяц "+month+", сумма накоплений равна "+total+" рублей");
         }
         System.out.println("Задача 10");
 
