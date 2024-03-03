@@ -1,13 +1,11 @@
 public class Author {
 
-    String name;
-    String lastName;
-    int age;
+    private String name;
+    private String lastName;
 
-    public Author(String name, String lastName, int age) {
+    public Author(String name, String lastName) {
         this.name = name;
         this.lastName = lastName;
-        this.age = age;
     }
 
     public String getName() {
@@ -16,9 +14,5 @@ public class Author {
 
     public String getLastNameName() {
         return this.lastName;
-    }
-
-    public int getage() {
-        return this.age;
     }
 }
